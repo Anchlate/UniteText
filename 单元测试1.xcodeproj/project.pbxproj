@@ -14,6 +14,9 @@
 		EDF67A5C1DDC0925005A688E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF67A5B1DDC0925005A688E /* Assets.xcassets */; };
 		EDF67A5F1DDC0925005A688E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF67A5D1DDC0925005A688E /* LaunchScreen.storyboard */; };
 		EDF67A6A1DDC0925005A688E /* ____1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF67A691DDC0925005A688E /* ____1Tests.m */; };
+		EDF67A761DDC095E005A688E /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF67A751DDC095E005A688E /* Movie.m */; };
+		EDF67A791DDC098B005A688E /* Demand.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF67A781DDC098B005A688E /* Demand.m */; };
+		EDF67A7C1DDC09B7005A688E /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF67A7B1DDC09B7005A688E /* Customer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		EDF67A651DDC0925005A688E /* 单元测试1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单元测试1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF67A691DDC0925005A688E /* ____1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____1Tests.m"; sourceTree = "<group>"; };
 		EDF67A6B1DDC0925005A688E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF67A741DDC095E005A688E /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		EDF67A751DDC095E005A688E /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		EDF67A771DDC098B005A688E /* Demand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demand.h; sourceTree = "<group>"; };
+		EDF67A781DDC098B005A688E /* Demand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demand.m; sourceTree = "<group>"; };
+		EDF67A7A1DDC09B7005A688E /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		EDF67A7B1DDC09B7005A688E /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				EDF67A531DDC0925005A688E /* AppDelegate.m */,
 				EDF67A551DDC0925005A688E /* ViewController.h */,
 				EDF67A561DDC0925005A688E /* ViewController.m */,
+				EDF67A741DDC095E005A688E /* Movie.h */,
+				EDF67A751DDC095E005A688E /* Movie.m */,
+				EDF67A771DDC098B005A688E /* Demand.h */,
+				EDF67A781DDC098B005A688E /* Demand.m */,
+				EDF67A7A1DDC09B7005A688E /* Customer.h */,
+				EDF67A7B1DDC09B7005A688E /* Customer.m */,
 				EDF67A581DDC0925005A688E /* Main.storyboard */,
 				EDF67A5B1DDC0925005A688E /* Assets.xcassets */,
 				EDF67A5D1DDC0925005A688E /* LaunchScreen.storyboard */,
@@ -212,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF67A571DDC0925005A688E /* ViewController.m in Sources */,
+				EDF67A7C1DDC09B7005A688E /* Customer.m in Sources */,
+				EDF67A791DDC098B005A688E /* Demand.m in Sources */,
 				EDF67A541DDC0925005A688E /* AppDelegate.m in Sources */,
+				EDF67A761DDC095E005A688E /* Movie.m in Sources */,
 				EDF67A511DDC0925005A688E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
